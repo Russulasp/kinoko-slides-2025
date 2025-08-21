@@ -12,7 +12,7 @@ style: |
     font-family: 'Noto Sans JP', sans-serif;
   }
 ---
-
+<!-- _paginate: skip -->
 # こんにちは
 
 これはシンプルなMarpスライドです。
