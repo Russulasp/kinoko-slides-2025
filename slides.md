@@ -5,7 +5,7 @@ title: Kinoko Tricks Slides
 paginate: true
 math: mathjax
 header: 'Kinoko 2025'
-footer: 'Slide $page$ / $pages$'
+footer: 'Slide $page / $page'
 style: |
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
   section {
