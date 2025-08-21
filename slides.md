@@ -14,7 +14,7 @@ style: |
 ---
 
 <!-- _paginate: skip -->
-![bg fit](https://source.unsplash.com/featured/?kobe,park)
+![bg fit](images/placeholder.svg)
 # 再度公園における素敵なきのこ観察
 ## 場所を知る／データから見る
 ### 発表者・日付
@@ -32,7 +32,7 @@ style: |
 - 全国でも観察会は各地で実施
 - 再度公園の活動はレベルが高い印象
 
-![width:70%](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Blank_map_of_Japan_with_prefectures.svg/1024px-Blank_map_of_Japan_with_prefectures.svg.png)
+![width:70%](images/placeholder.svg)
 
 ---
 
@@ -40,7 +40,7 @@ style: |
 - 神戸中心部からの距離／アクセス
 - 面積（公称）とエリア感
 
-![width:45%](https://source.unsplash.com/featured/?park,map) ![width:45%](https://source.unsplash.com/featured/?satellite,park)
+![width:45%](images/placeholder.svg) ![width:45%](images/placeholder.svg)
 
 ---
 
@@ -48,7 +48,7 @@ style: |
 - 神戸市HPの面積 vs GISの概算差異に言及
 - 差異の理由（計測範囲・境界定義などの可能性）
 
-![width:60%](https://source.unsplash.com/featured/?map,boundary)
+![width:60%](images/placeholder.svg)
 
 ---
 
@@ -56,7 +56,7 @@ style: |
 - 主要な植生タイプ（例：常緑広葉・二次林など）
 - 「観察で出やすい環境」への示唆
 
-![width:60%](https://source.unsplash.com/featured/?vegetation,map)
+![width:60%](images/placeholder.svg)
 
 ---
 
@@ -91,7 +91,7 @@ style: |
 - 月ごとの傾向を比較（棒グラフ想定）
 - ざっくり見える季節性
 
-![width:60%](https://via.placeholder.com/600x300.png?text=Bar+Chart)
+![width:60%](images/placeholder.svg)
 
 ---
 
@@ -100,7 +100,7 @@ style: |
 - 期待：降雨後に種数↑の傾向？（※年・月で差）
 - 限界：観察回の偏り／探索努力量の差
 
-![width:60%](https://via.placeholder.com/600x300.png?text=Scatter+Plot)
+![width:60%](images/placeholder.svg)
 
 ---
 
