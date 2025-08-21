@@ -6,6 +6,11 @@ paginate: true
 math: mathjax
 header: 'Kinoko 2025'
 footer: 'Slide $page$ / $pages$'
+style: |
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+  section {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
 ---
 
 # こんにちは
