@@ -10,9 +10,26 @@ section.cover {
   background-color: #f5f5f5;
 }
 
+/* Base layout for non-cover slides: reserve space for a fixed heading */
+section:not(.cover) {
+  position: relative;
+  padding-top: 4rem;
+}
+
+section:not(.cover) h1:first-of-type,
+section:not(.cover) h2:first-of-type,
+section:not(.cover) h3:first-of-type {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  right: 2rem;
+  margin: 0;
+}
+
 /* Content slide: default layout with padding */
 section.content {
   padding: 2rem;
+  padding-top: 6rem;
 }
 
 /* Divider slide: big centered text */
