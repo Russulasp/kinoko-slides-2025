@@ -86,6 +86,12 @@ style: |
 - 自然度 × 管理のバランスが良い“学びの場”
 - 継続観察の価値：季節差・年差・場の特徴が見える
 
+
+---
+<!-- _class: divider -->
+
+# データ分析編
+
 ---
 <!-- _class: content -->
 
@@ -115,12 +121,32 @@ style: |
 ![width:60%](images/placeholder.svg)
 
 ---
+<!-- _class: split -->
+
+<div class="column">
+### 観察の工夫
+- 現地でのメモ統一
+- 探索時間の記録
+</div>
+
+<div class="column">
+### 分析の工夫
+- データの整形
+- 気象データとの照合
+</div>
+
+---
 <!-- _class: content -->
 
 ## 見えたこと＆次にやりたいこと
 - 視覚化で“場と季節の癖”が見え始めた
 - もっと良くする：地点メモ統一・探索時間の記録・同定体制の注記
 - 皆さんのアイデア募集（分析の観点／記録の工夫）
+
+---
+<!-- _class: media -->
+
+![width:70%](images/placeholder.svg)
 
 ---
 <!-- _class: content -->
