@@ -1,0 +1,42 @@
+/* Slide master templates */
+
+/* Cover slide: centered content */
+section.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+/* Content slide: default layout with padding */
+section.content {
+  padding: 2rem;
+}
+
+/* Divider slide: big centered text */
+section.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Split slide: two column layout */
+section.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+section.split .column {
+  margin: 0;
+}
+
+/* Media slide: center media content */
+section.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
