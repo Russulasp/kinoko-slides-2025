@@ -11,10 +11,15 @@ style: |
     font-family: 'Noto Sans JP', sans-serif;
   }
   .source-note {
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+    right: 2rem;
+    font-size: 0.7rem;
     color: #555;
     line-height: 1.4;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding-top: 0.5rem;
   }
   .source-note p {
     margin: 0.2rem 0 0;
