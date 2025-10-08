@@ -11,10 +11,14 @@ section.cover {
 }
 
 /* Base layout for non-cover slides: reserve space for a fixed heading */
-section:not(.cover) {
+section:not(.cover):not(.split):not(.divider) {
   position: relative;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  box-sizing: border-box;
 }
 
 section:not(.cover) h1:first-of-type,
@@ -40,6 +44,7 @@ section:not(.cover) h3:first-of-type {
 section.content {
   padding: 2rem;
   padding-top: 6rem;
+  gap: 1.5rem;
 }
 
 /* Divider slide: big centered text */
@@ -64,9 +69,15 @@ section.divider h3:first-of-type {
 
 /* Split slide: two column layout */
 section.split {
+  position: relative;
+  padding: 2rem;
+  padding-top: 6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+  min-height: 100%;
+  box-sizing: border-box;
+  grid-auto-rows: minmax(min-content, auto);
 }
 section.split .column {
   margin: 0;
@@ -75,6 +86,34 @@ section.split .column {
 /* Media slide: center media content */
 section.media {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  padding-top: 6rem;
+  gap: 1.5rem;
+}
+
+section.media > :not(.source-note) {
+  margin: 0;
+}
+
+.source-note {
+  margin-top: auto;
+  font-size: 0.7rem;
+  color: #555;
+  line-height: 1.4;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 0.75rem;
+  align-self: stretch;
+}
+
+.source-note p {
+  margin: 0.2rem 0 0;
+}
+
+section.split .source-note {
+  grid-column: 1 / -1;
+  align-self: end;
+  margin-top: 1.5rem;
 }
