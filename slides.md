@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-title: 再度公園における素敵なきのこ観察
+title: きのこ観察の視点から見た再度公園の環境
 paginate: true
 math: mathjax
 header: 'Kinoko 2025'
@@ -12,147 +12,206 @@ style: |
   section {
     font-family: 'Noto Sans JP', sans-serif;
   }
+  .source-note {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.4;
+  }
+  .source-note p {
+    margin: 0.2rem 0 0;
+  }
 ---
 <!-- _class: cover -->
 <!-- _paginate: skip -->
-![bg fit](images/placeholder.svg)
-# 再度公園における素敵なきのこ観察
-## 場所を知る／データから見る
-### 発表者・日付
+# きのこ観察の視点から見た再度公園の環境
+## 場所を知り、観察データを読み解く
+### 発表者: 渡邉大輔 ／ 日付: 2025-11-9
 
 ---
 <!-- _class: content -->
 
-## 目的と今日の流れ
-- 目的①：再度公園という“舞台”を知る
-- 目的②：観察データから見えることを探る
-- 本日の流れ：場所→制度→自然→データ→示唆
-
----
-<!-- _class: content -->
-
-## きのこ観察会の広がり（全国の文脈）
-- 全国でも観察会は各地で実施
-- 再度公園の活動はレベルが高い印象
-
-![width:70%](images/placeholder.svg)
-
----
-<!-- _class: content -->
-
-## 再度公園の位置と概要
-- 神戸中心部からの距離／アクセス
-- 面積（公称）とエリア感
-
-![width:45%](images/placeholder.svg) ![width:45%](images/placeholder.svg)
-
----
-<!-- _class: content -->
-
-## 面積・境界のちょい深掘り
-- 神戸市HPの面積 vs GISの概算差異に言及
-- 差異の理由（計測範囲・境界定義などの可能性）
-
-![width:60%](images/placeholder.svg)
-
----
-<!-- _class: content -->
-
-## 自然の側面：植生の概要
-- 主要な植生タイプ（例：常緑広葉・二次林など）
-- 「観察で出やすい環境」への示唆
-
-![width:60%](images/placeholder.svg)
-
----
-<!-- _class: content -->
-
-## 法規制・保全の枠組み（要点だけ）
-- 瀬戸内海国立公園の一部（区域の位置づけ）
-- 第一種特別地域など：保全の方針
-- きのこ採取の扱い（木竹伐採NG等との対比に軽く触れる）
-
----
-<!-- _class: content -->
-
-## 計画・管理の視点
-- 公園計画書等の要点（自然性重視・利用と保全の両立）
-- ⇒ 再度公園は“価値が認められ、適切に守られている場”
-
----
-<!-- _class: content -->
-
-## ここまでのまとめ（観察の意義）
-- 自然度 × 管理のバランスが良い“学びの場”
-- 継続観察の価値：季節差・年差・場の特徴が見える
-
+## 趣旨
+- 再度公園という場所・環境を知る
+- 観察記録等を読み解く
 
 ---
 <!-- _class: divider -->
 
-# データ分析編
+# 再度公園の概要
 
 ---
 <!-- _class: content -->
 
-## データの宝：兵庫きのこ研究会の記録
-- 観察記録が継続的に蓄積（=資産）
-- 兵庫県の確認種リストが基準として有用
-- 注意点：大量発生度・同定体制の揺れ等のバイアス
+## 再度公園の自然環境
+- 再度公園周辺ではアカマツ林が広く分布し、林内にはソヨゴやヒサカキ、スダジイの低木もみられる。気候的極相としては、スダジイやアカガシを主体とする照葉樹林が発達する地域である。
+- 花崗岩が風化してできた砂質の土壌が広がり、水はけがよい反面、水もちが悪く乾燥しやすい環境を形成。アカマツ林ではpHがより酸性で、スダジイ林よりも土壌が未熟。
+- アカマツ林の中には将来スダジイ林へ移行する兆候がみられ、極相の照葉樹林へと遷移が進むと考えられる。植生とともに、土壌環境も長い時間をかけて変化していく。
 
----
-<!-- _class: content -->
+![width:70%](images/010_林層構造.jpg)
 
-## 手元でやった簡易集計（例）
-- 各観察会ごとの確認種数を集計
-- 月ごとの傾向を比較（棒グラフ想定）
-- ざっくり見える季節性
-
-![width:60%](images/placeholder.svg)
-
----
-<!-- _class: content -->
-
-## 気象との関係の仮説
-- 降水量（アメダス近傍）× 確認種数の散布図
-- 期待：降雨後に種数↑の傾向？（※年・月で差）
-- 限界：観察回の偏り／探索努力量の差
-
-![width:60%](images/placeholder.svg)
-
----
-<!-- _class: split -->
-
-<div class="column">
-### 観察の工夫
-- 現地でのメモ統一
-- 探索時間の記録
+<div class="source-note">
+  <p>出典: 小舘 誓治（年不明）『自然とむきあう — 六甲山系における森林の植生と土壌を調べる』 https://www.hitohaku.jp/publication/30thanniv_10_rokkomt.pdf</p>
+  <p>出典: 高橋竹彦・増田隆史・西川清（1987）『六甲山地再度山永久植生保存地における植物群落の遷移と土壌の理化学性との関係』 https://www.jstage.jst.go.jp/article/jjfe/29/2/29_KJ00006918313/_pdf/-char/ja</p>
 </div>
-
-<div class="column">
-### 分析の工夫
-- データの整形
-- 気象データとの照合
-</div>
-
----
-<!-- _class: content -->
-
-## 見えたこと＆次にやりたいこと
-- 視覚化で“場と季節の癖”が見え始めた
-- もっと良くする：地点メモ統一・探索時間の記録・同定体制の注記
-- 皆さんのアイデア募集（分析の観点／記録の工夫）
 
 ---
 <!-- _class: media -->
 
-![width:70%](images/placeholder.svg)
+![width:85%](images/020_位置図1.jpg)
+
+<div class="source-note">
+  <p>出典: 神戸まちガイド（2023）『再度公園 ― 神戸 まちガイド』 https://kobe-machiguide.com/park/futatabi-park/</p>
+</div>
+
+---
+<!-- _class: media -->
+
+![width:85%](images/030_位置図2.jpg)
+
+<div class="source-note">
+  <p>出典: ルートふたたび（2023）『再度公園について – Futatabi Park』 https://routefutatabi.com/futatabi-park/</p>
+</div>
+
+---
+<!-- _class: media -->
+
+![width:85%](images/040_default_01.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/050_default_from_SW.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/060_default_from_SE.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/070_default_from_E.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/080_default_2018_2.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/090_default_2022-4.jpg)
+
+---
+<!-- _class: media -->
+
+![width:85%](images/100_default_2020-5.jpg)
 
 ---
 <!-- _class: content -->
 
-## さいごに
-- 再度公園×きのこ観察の魅力再確認
-- データの継続が未来の知見に
-- ご協力への感謝・連絡先
+## 再度公園の範囲
+- 神戸市HP面積とGIS概算面積（12.9ha）の差異
+
+![width:75%](images/110_公園の諸元.jpg)
+
+<div class="source-note">
+  <p>出典: 神戸市（2025）『再度公園（ふたたびこうえん）』 https://www.city.kobe.lg.jp/a17526/kurashi/machizukuri/park/intoro/kobepark/futatabi.html</p>
+</div>
+
+---
+<!-- _class: content -->
+
+## 瀬戸内海国立公園の広がり
+- 再度公園は瀬戸内海国立公園の一角に位置する
+- 広域的な配置を把握し、周辺の自然環境とのつながりを意識する
+
+![width:75%](images/120_瀬戸内海国立公園_引き.jpg)
+
+---
+<!-- _class: content -->
+
+## 第一種特別地域としての位置づけ
+- 再度公園は第一種特別地域に指定され、自然状態の維持が最優先
+
+<!-- NOTE: 130_瀬戸内海国立公園_focus が提供されていないため、広域図を補完資料として参照 -->
+
+<div class="source-note">
+  <p>出典: 環境省（発行年不明）『自然公園法の概要』 https://www.env.go.jp/content/000062513.pdf</p>
+  <p>出典: 環境省（発行年不明）『国立・国定公園特別地域内での各種行為に係る許可基準の概要』 https://www.env.go.jp/nature/ari_kata/shiryou/031208-4-14.pdf</p>
+  <p>出典: 兵庫県（発行年不明）『自然公園内での行為に関する処理基準』 https://www.kankyo.pref.hyogo.lg.jp/application/files/7616/4145/7093/2_.pdf</p>
+  <p>出典: 兵庫県（発行年不明）『自然公園の概要制度』 https://www.kankyo.pref.hyogo.lg.jp/application/files/9416/3816/0342/30193e7a4b7163dbd925c6f52287fa6f.pdf</p>
+</div>
+
+---
+<!-- _class: content -->
+
+## 法規制・保全の枠組
+- 国立・国定公園の中で、自然景観が最も優れた区域
+- 自然状態の維持を最優先に、開発行為は原則禁止
+- 自然公園法第20条に基づき、特別地域の中で最も厳格な区分
+- 工作物・伐採・土地改変などは原則不可、許可制
+- 学術・教育・観察利用など、環境を損なわない行為のみ許容
+
+<div class="source-note">
+  <p>出典: 環境省（発行年不明）『自然公園法の概要』 https://www.env.go.jp/content/000062513.pdf</p>
+  <p>出典: 環境省（発行年不明）『国立・国定公園特別地域内での各種行為に係る許可基準の概要』 https://www.env.go.jp/nature/ari_kata/shiryou/031208-4-14.pdf</p>
+  <p>出典: 神戸市（2022）『六甲山 利活用ガイドライン』 https://www.city.kobe.lg.jp/documents/64246/tenpu_02.pdf</p>
+  <p>出典: 兵庫県（発行年不明）『自然公園内での行為に関する処理基準』 https://www.kankyo.pref.hyogo.lg.jp/application/files/7616/4145/7093/2_.pdf</p>
+  <p>出典: 兵庫県（発行年不明）『自然公園の概要制度』 https://www.kankyo.pref.hyogo.lg.jp/application/files/9416/3816/0342/30193e7a4b7163dbd925c6f52287fa6f.pdf</p>
+</div>
+
+---
+<!-- _class: content -->
+
+## 再度公園の管理等
+- 再度公園は「再度山永久植生保存地」を核とする区域で、森林保全を目的とした区域指定
+- 開設は1937年（昭和12年）、人工池（修法ヶ原池）を含む風致的・休養的施設を併設した都市公園として整備された
+- 緑化事業の歴史的経緯が記載：明治35年（1902年）から斜面工・石積み補強・多様樹種植栽による再緑化が始まった
+- 市民参加型の「森づくり」活動、定期的な植生・土壌調査（5年ごと）が計画管理の枠組みに入っていた
+- 植生の遷移・管理方針として、「アカマツ／コナラ主体の二次林の整備・間伐・低木刈込・照葉樹遷移維持」などの手法が挙げられる
+
+<div class="source-note">
+  <p>出典: 文化庁（発行年不明）『再度公園・再度山永久植生保存地・神戸外国人墓地（文化遺産オンライン）』 https://bunka.nii.ac.jp/heritages/detail/174035</p>
+  <p>出典: 神戸市（2025）『国名勝「再度公園・再度山永久植生保存地・神戸外国人墓地」』 https://www.city.kobe.lg.jp/a17526/kanko/leisure/mountain/futatabi.html</p>
+</div>
+
+---
+<!-- _class: divider -->
+
+# 観察記録から読み取れること
+
+---
+<!-- _class: content -->
+
+## 兵庫きのこ研究会の記録
+- 全国各地できのこ観察会が実施
+- 再度公園の活動はレベルが高い
+- 観察記録が継続的に蓄積
+
+---
+<!-- _class: media -->
+
+![width:80%](images/140_sunburst_family_genus_reduced.jpg)
+
+<div class="source-note">
+  <p>とりまとめ: 幸徳 氏</p>
+</div>
+
+---
+<!-- _class: media -->
+
+![width:80%](images/150_ridgeline_genus_2024_reduced.jpg)
+
+<div class="source-note">
+  <p>とりまとめ: 幸徳 氏</p>
+</div>
+
+---
+<!-- _class: content -->
+
+## 感想と今後の展望
+- せっかくの貴重なデータがある、これを活かしていきたい
+- 降水との相関が見れたらいいな（余裕があれば降水関係の図を挿入）
 
