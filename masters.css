@@ -39,6 +39,17 @@ section.divider {
   align-items: center;
   text-align: center;
   font-size: 2.5rem;
+  padding-top: 0;
+}
+
+section.divider h1:first-of-type,
+section.divider h2:first-of-type,
+section.divider h3:first-of-type {
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin: 0;
 }
 
 /* Split slide: two column layout */
