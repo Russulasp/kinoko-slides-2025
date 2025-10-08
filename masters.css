@@ -78,3 +78,25 @@ section.media {
   justify-content: center;
   align-items: center;
 }
+
+/* Ensure media fits within both slide dimensions */
+section img,
+section svg,
+section video,
+section canvas {
+  display: block;
+  max-width: min(100%, calc(100vw - 6rem));
+  max-height: calc(100vh - 8rem);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+section.media img,
+section.media svg,
+section.media video,
+section.media canvas {
+  max-width: min(92%, calc(100vw - 4rem));
+  max-height: calc(100vh - 6rem);
+}
