@@ -40,6 +40,10 @@ section:not(.cover) h3:first-of-type {
 section.content {
   padding: 2rem;
   padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 100%;
 }
 
 /* Divider slide: big centered text */
@@ -75,6 +79,15 @@ section.split .column {
 /* Media slide: center media content */
 section.media {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 1.5rem;
+  min-height: 100%;
+  padding: 2rem;
+  padding-top: 6rem;
+}
+
+section.media > :not(.source-note) {
+  margin-top: auto;
+  margin-bottom: auto;
 }
