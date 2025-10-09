@@ -13,17 +13,19 @@ section.cover {
 /* Base layout for non-cover slides: reserve space for a fixed heading */
 section:not(.cover) {
   position: relative;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 3rem 3rem 2.5rem;
+  gap: 1.5rem;
 }
 
+/* Reserve the upper band for the first heading */
 section:not(.cover) h1:first-of-type,
 section:not(.cover) h2:first-of-type,
 section:not(.cover) h3:first-of-type {
-  position: absolute;
-  top: 1rem;
-  left: 2rem;
-  right: 2rem;
+  position: static;
   margin: 0;
   padding: 0.5rem 1.25rem;
   background: rgba(255, 255, 255, 0.92);
@@ -33,13 +35,48 @@ section:not(.cover) h3:first-of-type {
   border-left: 0.35rem solid #8c4a2f;
   border-radius: 999px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  z-index: 1;
+  align-self: flex-start;
 }
 
-/* Content slide: default layout with padding */
-section.content {
-  padding: 2rem;
-  padding-top: 6rem;
+/* The remaining space is handled by a dedicated main column */
+.slide-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+section:not(.cover) .slide-main {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+section.content .slide-main {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+section.media .slide-main {
+  align-items: center;
+  justify-content: center;
+}
+
+section.divider .slide-main {
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+section.cover .slide-main {
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* If a footer exists, anchor it to the bottom band */
+section:not(.cover) > .source-note {
+  margin-top: auto;
+  align-self: stretch;
 }
 
 /* Divider slide: big centered text */
