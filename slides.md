@@ -10,18 +10,6 @@ style: |
   section {
     font-family: 'Noto Sans JP', sans-serif;
   }
-  .source-note {
-    margin-top: auto;
-    padding-top: 0.75rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
-    font-size: 0.7rem;
-    color: #555;
-    line-height: 1.4;
-    width: 100%;
-  }
-  .source-note p {
-    margin: 0.2rem 0 0;
-  }
 ---
 <!-- _class: cover -->
 <!-- _paginate: skip -->
@@ -45,11 +33,19 @@ style: |
 <!-- _class: content -->
 
 ## 再度公園の自然環境
-- 再度公園周辺ではアカマツ林が広く分布し、林内にはソヨゴやヒサカキ、スダジイの低木もみられる。気候的極相としては、スダジイやアカガシを主体とする照葉樹林が発達する地域である。
-- 花崗岩が風化してできた砂質の土壌が広がり、水はけがよい反面、水もちが悪く乾燥しやすい環境を形成。アカマツ林ではpHがより酸性で、スダジイ林よりも土壌が未熟。
-- アカマツ林の中には将来スダジイ林へ移行する兆候がみられ、極相の照葉樹林へと遷移が進むと考えられる。植生とともに、土壌環境も長い時間をかけて変化していく。
 
-![width:70%](images/010_林層構造.jpg)
+<div class="side-by-side">
+  <div class="side-text">
+    <ul>
+      <li>再度公園周辺ではアカマツ林が広く分布し、林内にはソヨゴやヒサカキ、スダジイの低木もみられる。気候的極相としては、スダジイやアカガシを主体とする照葉樹林が発達する地域である。</li>
+      <li>花崗岩が風化してできた砂質の土壌が広がり、水はけがよい反面、水もちが悪く乾燥しやすい環境を形成。アカマツ林ではpHがより酸性で、スダジイ林よりも土壌が未熟。</li>
+      <li>アカマツ林の中には将来スダジイ林へ移行する兆候がみられ、極相の照葉樹林へと遷移が進むと考えられる。植生とともに、土壌環境も長い時間をかけて変化していく。</li>
+    </ul>
+  </div>
+  <div class="side-media">
+    <img src="images/010_林層構造.jpg" alt="再度公園の林層構造" />
+  </div>
+</div>
 
 <div class="source-note">
   <p>出典: 小舘 誓治（年不明）『自然とむきあう — 六甲山系における森林の植生と土壌を調べる』 https://www.hitohaku.jp/publication/30thanniv_10_rokkomt.pdf</p>
