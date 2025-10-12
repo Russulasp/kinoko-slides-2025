@@ -103,6 +103,12 @@ section.media img {
   object-fit: contain;            /* 切らずに収める */
 }
 
+/* マークダウン側で width / height を指定した場合はその値を優先させる */
+section.media img[style*="width"],
+section.media img[style*="height"] {
+  max-height: none;
+}
+
 /* 出典（あるときだけ下端に固定） */
 section.media:has(> footer.source-note) {
   --footer-h: 3.5rem;             /* フッターの見出し高を調整 */
