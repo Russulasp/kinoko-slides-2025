@@ -77,18 +77,56 @@ section.split .column {
   margin: 0;
 }
 
-/* Media slide: center media content */
+/* ===== media 基本：画像1枚 or 画像＋footer ===== */
+
 section.media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  min-height: 100%;
-  padding: 2rem;
-  padding-top: 6rem;
+  /* footer 有無に応じて埋める高さ（初期は 0） */
+  --footer-h: 0rem;
+  position: relative;
+  padding: 0 0 var(--footer-h) 0; /* footer 分だけ下に余白 */
+  min-height: 100vh;              /* スライド高いっぱい */
 }
 
-section.media > :not(.source-note) {
-  margin-top: auto;
-  margin-bottom: auto;
+/* Markdown が作る <p> を全幅に（%指定の基準をスライド幅へ） */
+section.media > p {
+  width: 100%;
+  margin: 0;
+  text-align: center;             /* 画像中央寄せ */
+}
+
+/* 画像は“収める”が基本。手動 width/height を邪魔しない */
+section.media img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: calc(100vh - var(--footer-h));
+  height: auto;
+  object-fit: contain;            /* 切らずに収める */
+}
+
+/* 出典（あるときだけ下端に固定） */
+section.media:has(> footer.source-note) {
+  --footer-h: 3.5rem;             /* フッターの見出し高を調整 */
+}
+footer.source-note {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: .6rem 1rem;
+  font-size: .75rem;
+  color: #666;
+  background: rgba(255,255,255,.85);
+  text-align: left;
+}
+
+/* 画面いっぱいに“埋めたい”場合のオプション（切れてOK） */
+section.media.media-cover img {
+  width: 100%;
+  height: calc(100vh - var(--footer-h));
+  object-fit: cover;              /* 画面を満たす（トリミング可） */
+}
+
+/* 縦長を“高さ優先”で見せたいオプション */
+section.media.media-fit-height img {
+  width: auto;
+  height: calc(100vh - var(--footer-h));
+  object-fit: contain;
 }
