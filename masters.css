@@ -82,6 +82,7 @@ section.split .column {
 section.media {
   /* footer 有無に応じて埋める高さ（初期は 0） */
   --footer-h: 0rem;
+  --media-img-scale: 1;           /* 画像の拡大率（デフォルトは等倍） */
   position: relative;
   padding: 0 0 var(--footer-h) 0; /* footer 分だけ下に余白 */
   min-height: 100vh;              /* スライド高いっぱい */
@@ -97,14 +98,18 @@ section.media > p {
 /* 画像は“収める”が基本。手動 width/height を邪魔しない */
 section.media img {
   display: inline-block;
-  max-width: 100%;
+  width: auto;
+  max-width: calc(100% * var(--media-img-scale));
   max-height: calc(100vh - var(--footer-h));
   height: auto;
   object-fit: contain;            /* 切らずに収める */
 }
 
 /* マークダウン側で width / height を指定した場合はその値を優先させる */
-section.media img[style*="width"],
+section.media img[style*="width"] {
+  max-width: none;
+}
+
 section.media img[style*="height"] {
   max-height: none;
 }

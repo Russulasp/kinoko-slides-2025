@@ -94,6 +94,8 @@ style: |
 ---
 <!-- _class: media -->
 
+<!-- _style: --media-img-scale: 0.85; -->
+
 ![width:85%](images/020_位置図1.jpg)
 
 <div class="source-note">
@@ -102,6 +104,8 @@ style: |
 
 ---
 <!-- _class: media -->
+
+<!-- _style: --media-img-scale: 0.85; -->
 
 ![width:85%](images/030_位置図2.jpg)
 
@@ -112,35 +116,49 @@ style: |
 ---
 <!-- _class: media -->
 
+<!-- _style: --media-img-scale: 0.85; -->
+
 ![width:85%](images/040_default_01.jpg)
 
 ---
 <!-- _class: media -->
+
+<!-- _style: --media-img-scale: 0.85; -->
 
 ![width:85%](images/050_default_from_SW.jpg)
 
 ---
 <!-- _class: media -->
 
+<!-- _style: --media-img-scale: 0.85; -->
+
 ![width:85%](images/060_default_from_SE.jpg)
 
 ---
 <!-- _class: media -->
+
+<!-- _style: --media-img-scale: 0.85; -->
 
 ![width:85%](images/070_default_from_E.jpg)
 
 ---
 <!-- _class: media -->
 
+<!-- _style: --media-img-scale: 0.85; -->
+
 ![width:85%](images/080_default_2018_2.jpg)
 
 ---
 <!-- _class: media -->
 
+<!-- _style: --media-img-scale: 0.85; -->
+
 ![width:85%](images/090_default_2022-4.jpg)
 
 ---
 <!-- _class: media -->
+
+<!-- _style: --media-img-scale: 0.85; -->
 
 ![width:85%](images/100_default_2020-5.jpg)
 
