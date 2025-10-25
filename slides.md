@@ -80,33 +80,39 @@ style: |
       <li>花崗岩が風化してできた砂質の土壌が広がり、水はけがよい反面、水もちが悪く乾燥しやすい環境を形成。アカマツ林ではpHがより酸性で、スダジイ林よりも土壌が未熟。</li>
     </ul>
   </div>
-  <div class="nature-slide__image">
-    <img src="images/010_林層構造.jpg" alt="再度公園の林層構造の図" />
-  </div>
 </div>
 
-<div class="source-note">
+---
+<!-- _class: media -->
+
+<p>
+  <img src="images/010_林層構造.jpg"
+       alt="再度公園の林層構造の図"
+       style="width: 70%; height: auto; max-width: 70%;" />
+</p>
+
+<footer class="source-note">
   <p>出典: 小舘 誓治（年不明）『自然とむきあう — 六甲山系における森林の植生と土壌を調べる』 https://www.hitohaku.jp/publication/30thanniv_10_rokkomt.pdf</p>
   <p>出典: 高橋竹彦・増田隆史・西川清（1987）『六甲山地再度山永久植生保存地における植物群落の遷移と土壌の理化学性との関係』 https://www.jstage.jst.go.jp/article/jjfe/29/2/29_KJ00006918313/_pdf/-char/ja</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/020_位置図1.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 神戸まちガイド（2023）『再度公園 ― 神戸 まちガイド』 https://kobe-machiguide.com/park/futatabi-park/</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/030_位置図2.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: ルートふたたび（2023）『再度公園について – Futatabi Park』 https://routefutatabi.com/futatabi-park/</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
@@ -162,23 +168,18 @@ style: |
 - 再度公園は瀬戸内海国立公園の一角に位置する
 - 広域的な配置を把握し、周辺の自然環境とのつながりを意識する
 
-<div style="
-  display: block;             /* flex影響を避ける */
-  width: 50%;                 /* 画像全体の幅をスライド幅の50%に */
-  margin: 2rem auto 0 auto;   /* 上下余白＋中央寄せ */
-  text-align: center;         /* 万一のズレ対策 */
-">
-  <img src='images/120_瀬戸内海国立公園_引き.jpg'
-       alt='瀬戸内海国立公園の広がり'
-       style='
-         display: block;
-         width: 100%;
-         height: auto;
-         max-width: 100%;
-         object-fit: contain;
-       '>
-</div>
+---
+<!-- _class: media -->
 
+<p>
+  <img src="images/120_瀬戸内海国立公園_引き.jpg"
+       alt="瀬戸内海国立公園の広がり"
+       style="width: 55%; max-width: 55%; height: auto;" />
+</p>
+
+<footer class="source-note">
+  <p>作図: 渡邉大輔（2025年、瀬戸内海国立公園の指定区域を基に作成）</p>
+</footer>
 
 ---
 <!-- _class: content -->
