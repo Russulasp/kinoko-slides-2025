@@ -162,9 +162,24 @@ style: |
 - 再度公園は瀬戸内海国立公園の一角に位置する
 - 広域的な配置を把握し、周辺の自然環境とのつながりを意識する
 
-<p style="text-align:center;">
-  <img src="images/120_瀬戸内海国立公園_引き.jpg" style="width:50%; height:auto;">
-</p>
+<div style="
+  display: block;             /* flex影響を避ける */
+  width: 50%;                 /* 画像全体の幅をスライド幅の50%に */
+  margin: 2rem auto 0 auto;   /* 上下余白＋中央寄せ */
+  text-align: center;         /* 万一のズレ対策 */
+">
+  <img src='images/120_瀬戸内海国立公園_引き.jpg'
+       alt='瀬戸内海国立公園の広がり'
+       style='
+         display: block;
+         width: 100%;
+         height: auto;
+         max-width: 100%;
+         object-fit: contain;
+       '>
+</div>
+
+
 ---
 <!-- _class: content -->
 
