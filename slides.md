@@ -9,6 +9,21 @@ style: |
   @import './masters.css';
   section {
     font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  section::after {
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+    position: absolute;
+    bottom: 1.2rem;
+    right: 1.5rem;
+    font-size: 0.7rem;
+    color: #555;
+  }
+  section[data-marpit-pagination=""]::after {
+    content: '';
   }
   .source-note {
     margin-top: auto;
@@ -91,28 +106,28 @@ style: |
        style="width: 70%; height: auto; max-width: 70%;" />
 </p>
 
-<footer class="source-note">
+<div class="source-note">
   <p>出典: 小舘 誓治（年不明）『自然とむきあう — 六甲山系における森林の植生と土壌を調べる』 https://www.hitohaku.jp/publication/30thanniv_10_rokkomt.pdf</p>
   <p>出典: 高橋竹彦・増田隆史・西川清（1987）『六甲山地再度山永久植生保存地における植物群落の遷移と土壌の理化学性との関係』 https://www.jstage.jst.go.jp/article/jjfe/29/2/29_KJ00006918313/_pdf/-char/ja</p>
-</footer>
+</div>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/020_位置図1.jpg)
 
-<footer class="source-note">
+<div class="source-note">
   <p>出典: 神戸まちガイド（2023）『再度公園 ― 神戸 まちガイド』 https://kobe-machiguide.com/park/futatabi-park/</p>
-</footer>
+</div>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/030_位置図2.jpg)
 
-<footer class="source-note">
+<div class="source-note">
   <p>出典: ルートふたたび（2023）『再度公園について – Futatabi Park』 https://routefutatabi.com/futatabi-park/</p>
-</footer>
+</div>
 
 ---
 <!-- _class: media -->
@@ -177,9 +192,9 @@ style: |
        style="width: 55%; max-width: 55%; height: auto;" />
 </p>
 
-<footer class="source-note">
+<div class="source-note">
   <p>作図: 渡邉大輔（2025年、瀬戸内海国立公園の指定区域を基に作成）</p>
-</footer>
+</div>
 
 ---
 <!-- _class: content -->
