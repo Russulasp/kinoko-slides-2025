@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-title: きのこ観察の視点から見た再度公園の環境
+title: きのこ観察にまつわる再度公園の環境
 paginate: true
 math: mathjax
 style: |
