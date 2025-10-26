@@ -202,14 +202,11 @@ style: |
 ## 第一種特別地域としての位置づけ
 - 再度公園は第一種特別地域に指定され、自然状態の維持が最優先
 
-<!-- NOTE: 130_瀬戸内海国立公園_focus が提供されていないため、広域図を補完資料として参照 -->
-
-<div class="source-note">
-  <p>出典: 環境省（発行年不明）『自然公園法の概要』 https://www.env.go.jp/content/000062513.pdf</p>
-  <p>出典: 環境省（発行年不明）『国立・国定公園特別地域内での各種行為に係る許可基準の概要』 https://www.env.go.jp/nature/ari_kata/shiryou/031208-4-14.pdf</p>
-  <p>出典: 兵庫県（発行年不明）『自然公園内での行為に関する処理基準』 https://www.kankyo.pref.hyogo.lg.jp/application/files/7616/4145/7093/2_.pdf</p>
-  <p>出典: 兵庫県（発行年不明）『自然公園の概要制度』 https://www.kankyo.pref.hyogo.lg.jp/application/files/9416/3816/0342/30193e7a4b7163dbd925c6f52287fa6f.pdf</p>
-</div>
+<p>
+  <img src="images/130_瀬戸内海国立公園_focus.jpg"
+       alt="瀬戸内海国立公園の第一種特別地域の詳細図"
+       style="width: 55%; max-width: 55%; height: auto;" />
+</p>
 
 ---
 <!-- _class: content -->
