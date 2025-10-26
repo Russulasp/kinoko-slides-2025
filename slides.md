@@ -197,10 +197,7 @@ style: |
 </div>
 
 ---
-<!-- _class: content -->
-
-## 第一種特別地域としての位置づけ
-- 再度公園は第一種特別地域に指定され、自然状態の維持が最優先
+<!-- _class: media -->
 
 <p>
   <img src="images/130_瀬戸内海国立公園_focus.jpg"
