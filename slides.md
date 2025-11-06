@@ -14,6 +14,9 @@ style: |
     flex-direction: column;
     min-height: 100%;
   }
+  section.content {
+    padding-bottom: 3.5rem;
+  }
   section::after {
     content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
     position: absolute;
@@ -25,17 +28,22 @@ style: |
   section[data-marpit-pagination=""]::after {
     content: '';
   }
-  .source-note {
-    margin-top: auto;
-    padding-top: 0.75rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  footer.source-note {
     font-size: 0.7rem;
     color: #555;
     line-height: 1.4;
-    width: 100%;
   }
-  .source-note p {
+  footer.source-note p {
     margin: 0.2rem 0 0;
+  }
+  section.content footer.source-note,
+  section.nature-slide footer.source-note {
+    position: static;
+    margin-top: auto;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    background: none;
+    width: 100%;
   }
 
   section.nature-slide {
@@ -106,28 +114,28 @@ style: |
        style="width: 70%; height: auto; max-width: 70%;" />
 </p>
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 小舘 誓治『自然とむきあう — 六甲山系における森林の植生と土壌を調べる』 https://www.hitohaku.jp/publication/30thanniv_10_rokkomt.pdf</p>
   <p>出典: 高橋竹彦・増田隆史・西川清（1987）『六甲山地再度山永久植生保存地における植物群落の遷移と土壌の理化学性との関係』 https://www.jstage.jst.go.jp/article/jjfe/29/2/29_KJ00006918313/_pdf/-char/ja</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/020_位置図1.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 神戸まちガイド（2023）『再度公園 ― 神戸 まちガイド』 https://kobe-machiguide.com/park/futatabi-park/</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
 
 ![width:85%](images/030_位置図2.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: ルートふたたび（2023）『再度公園について – Futatabi Park』 https://routefutatabi.com/futatabi-park/</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
@@ -172,9 +180,9 @@ style: |
 
 ![width:75%](images/110_公園の諸元.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 神戸市（2025）『再度公園（ふたたびこうえん）』 https://www.city.kobe.lg.jp/a17526/kurashi/machizukuri/park/intoro/kobepark/futatabi.html</p>
-</div>
+</footer>
 
 ---
 <!-- _class: content -->
@@ -192,9 +200,9 @@ style: |
        style="width: 55%; max-width: 55%; height: auto;" />
 </p>
 
-<div class="source-note">
+<footer class="source-note">
   <p>（2025年、瀬戸内海国立公園の指定区域を基に作成）</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
@@ -215,13 +223,13 @@ style: |
 - 工作物・伐採・土地改変などは原則不可、許可制
 - 学術・教育・観察利用など、環境を損なわない行為のみ許容
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 環境省『自然公園法の概要』 https://www.env.go.jp/content/000062513.pdf</p>
   <p>出典: 環境省『国立・国定公園特別地域内での各種行為に係る許可基準の概要』 https://www.env.go.jp/nature/ari_kata/shiryou/031208-4-14.pdf</p>
   <p>出典: 神戸市（2022）『六甲山 利活用ガイドライン』 https://www.city.kobe.lg.jp/documents/64246/tenpu_02.pdf</p>
   <p>出典: 兵庫県『自然公園内での行為に関する処理基準』 https://www.kankyo.pref.hyogo.lg.jp/application/files/7616/4145/7093/2_.pdf</p>
   <p>出典: 兵庫県『自然公園の概要制度』 https://www.kankyo.pref.hyogo.lg.jp/application/files/9416/3816/0342/30193e7a4b7163dbd925c6f52287fa6f.pdf</p>
-</div>
+</footer>
 
 ---
 <!-- _class: content -->
@@ -233,10 +241,10 @@ style: |
 - 市民参加型の「森づくり」活動、定期的な植生・土壌調査（5年ごと）が計画管理の枠組みに入っていた
 - 植生の遷移・管理方針として、「アカマツ／コナラ主体の二次林の整備・間伐・低木刈込・照葉樹遷移維持」などの手法が挙げられる
 
-<div class="source-note">
+<footer class="source-note">
   <p>出典: 文化庁『再度公園・再度山永久植生保存地・神戸外国人墓地（文化遺産オンライン）』 https://bunka.nii.ac.jp/heritages/detail/174035</p>
   <p>出典: 神戸市（2025）『国名勝「再度公園・再度山永久植生保存地・神戸外国人墓地」』 https://www.city.kobe.lg.jp/a17526/kanko/leisure/mountain/futatabi.html</p>
-</div>
+</footer>
 
 ---
 <!-- _class: divider -->
@@ -256,9 +264,9 @@ style: |
 
 ![width:80%](images/140_sunburst_family_genus_reduced.jpg)
 
-<div class="source-note">
+<footer class="source-note">
   <p>とりまとめ: 幸徳 氏</p>
-</div>
+</footer>
 
 ---
 <!-- _class: media -->
