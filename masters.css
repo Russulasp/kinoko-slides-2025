@@ -113,9 +113,11 @@ section.media img[style*="height"] {
 section.media:has(> footer.source-note) {
   --footer-h: 3.5rem;             /* フッターの見出し高を調整 */
 }
-footer.source-note {
+section.media > footer.source-note {
   position: absolute;
-  left: 0; right: 0; bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: .6rem 1rem;
   font-size: .75rem;
   color: #666;
