@@ -13,6 +13,8 @@ style: |
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3.5rem;
   }
   section::after {
     content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
