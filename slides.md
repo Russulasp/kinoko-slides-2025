@@ -302,7 +302,7 @@ style: |
 ---
 <!-- _class: media -->
 
-![width:80%](images/140_sunburst_family_genus_reduced.jpg)
+![width:80%](images/142_sunburst_family_genus_label20.jpeg)
 
 <div class="source-note">
   <p>とりまとめ: 幸徳 氏</p>
@@ -311,9 +311,17 @@ style: |
 ---
 <!-- _class: media -->
 
-![width:80%](images/150_ridgeline_genus_2024_reduced.jpg)
+![width:80%](images/145_sunburst_family_genus.jpeg)
 
+---
+<!-- _class: media -->
 
+![width:80%](images/152_ridgeline_genus_2024_filtered_landscape.jpeg)
+
+---
+<!-- _class: media -->
+
+![width:80%](images/160_ridgeline_genus_2024_filtered_target_genera.jpeg)
 
 ---
 <!-- _class: content -->
