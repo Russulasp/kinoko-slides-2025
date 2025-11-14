@@ -27,6 +27,16 @@ style: |
   section[data-marpit-pagination=""]::after {
     content: '';
   }
+  section img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: calc(100vh - 8rem);
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .source-note {
     margin-top: auto;
     padding-top: 0.75rem;
