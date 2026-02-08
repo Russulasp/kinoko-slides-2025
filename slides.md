@@ -116,7 +116,7 @@ style: |
 ---
 <!-- _class: media -->
 
-![width:85%](images/020_位置図1.jpg)
+![width:70%](images/020_位置図1.jpg)
 
 <div class="source-note">
   <p>出典: 神戸まちガイド（2023）『再度公園 ― 神戸 まちガイド』 https://kobe-machiguide.com/park/futatabi-park/</p>
@@ -125,7 +125,7 @@ style: |
 ---
 <!-- _class: media -->
 
-![width:85%](images/030_位置図2.jpg)
+![width:55%](images/030_位置図2.jpg)
 
 <div class="source-note">
   <p>出典: ルートふたたび（2023）『再度公園について – Futatabi Park』 https://routefutatabi.com/futatabi-park/</p>
@@ -134,37 +134,37 @@ style: |
 ---
 <!-- _class: media -->
 
-![width:85%](images/040_default_01.jpg)
+![height:70%](images/040_default_01.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/050_default_from_SW.jpg)
+![width:100%](images/050_default_from_SW.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/060_default_from_SE.jpg)
+![width:65%](images/060_default_from_SE.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/070_default_from_E.jpg)
+![height:65%](images/070_default_from_E.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/080_default_2018_2.jpg)
+![width:90%](images/080_default_2018_2.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/090_default_2022-4.jpg)
+![width:50%](images/090_default_2022-4.jpg)
 
 ---
 <!-- _class: media -->
 
-![width:85%](images/100_default_2020-5.jpg)
+![height:80%](images/100_default_2020-5.jpg)
 
 ---
 <!-- _class: content -->
